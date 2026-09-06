@@ -1,0 +1,17 @@
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Complete simulated FITS datasets
+111111/0_1/*.fits
+111111/1_0/*.fits
+111112/0_1/*.fits
+111112/1_0/*.fits
+111113/0_1/*.fits
+111113/1_0/*.fits
+111114/0_1/*.fits
+111114/1_0/*.fits
+
+# Large intermediate pixel-level tables
+*/Output_Figs/ratio_best_fit_models.csv
