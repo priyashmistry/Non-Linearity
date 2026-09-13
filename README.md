@@ -106,8 +106,7 @@ For example:
 
 ```bash
 python vnonlin.py \
-  "Simulated Data/111111/0_1" \
-  "Simulated Data/111111/1_0"
+  "Simulated Data/111111"
 ```
 
 Paths containing spaces must be enclosed in quotation marks.
@@ -118,9 +117,7 @@ When analysing the supplied simulated datasets, include the `--dm` option:
 
 ```bash
 python vnonlin.py \
-  "Simulated Data/111111/0_1" \
-  "Simulated Data/111111/1_0" \
-  --dm
+  "Simulated Data/111111" --dm
 ```
 
 The `--dm` option indicates that the analysis is being applied to simulated data and prevents the detector mask from being generated again. The existing mask and simulated-data handling are used instead.
@@ -129,18 +126,15 @@ The command can be repeated for each simulation:
 
 ```bash
 python vnonlin.py \
-  "Simulated Data/111112/0_1" \
-  "Simulated Data/111112/1_0" \
+  "Simulated Data/111112" \
   --dm
 
 python vnonlin.py \
-  "Simulated Data/111113/0_1" \
-  "Simulated Data/111113/1_0" \
+  "Simulated Data/111113" \
   --dm
 
 python vnonlin.py \
-  "Simulated Data/111114/0_1" \
-  "Simulated Data/111114/1_0" \
+  "Simulated Data/111114" \
   --dm
 ```
 
